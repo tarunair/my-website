@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     // Navbar functionality
     const hamburger = document.querySelector('.hamburger');
