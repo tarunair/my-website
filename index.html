@@ -1,100 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Interactive Hero</title>
-    <meta name="description" content="Imagining unique concepts and digital experiences.">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#" aria-label="Home">PHA5E</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#" aria-current="page">Our vision</a>
-                    <a class="nav-link" href="#">Our team</a>
-                    <a class="nav-link" href="#">Our project</a>
-                    <a class="nav-link" href="#">Contact us</a>
-                    <a class="nav-link" href="#">FR/EN</a>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHA5E - Redesigned Hero</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">PHA5E</div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#">OUR VISION</a>
+        <a href="#">OUR TEAM</a>
+        <a href="#">OUR PROJECTS</a>
+        <a href="#">CONTACT US</a>
+        <div class="language-toggle">
+          <a href="#">FR</a>
+          <span>/</span>
+          <a href="#" style="text-decoration: underline">EN</a>
         </div>
+      </div>
     </nav>
 
-    <main>
-        <section class="hero" aria-label="Hero section">
-            <div class="image-container">
-                <div class="image-wrapper" data-index="0">
-                    <img src="img111.png" alt="Science concept" class="interactive-image">
-                </div>
-                <div class="image-wrapper" data-index="1">
-                    <img src="img222.png" alt="Interactive map" class="interactive-image">
-                </div>
-                <div class="image-wrapper" data-index="2">
-                    <img src="img333.png" alt="Screenshot of digital concept" class="interactive-image">
-                </div>
-                <div class="image-wrapper" data-index="3">
-                    <img src="img444.jpg" alt="Digital experience screenshot" class="interactive-image">
-                </div>
-            </div>
-            <div class="hero-text">
-                <span>IMAGINING</span>
-                <span>UNIQUE</span>
-                <span>CONCEPTS</span>
-                <span>AND DIGITAL</span>
-                <span>EXPERIENCES</span>
-            </div>
-        </section>
+    <section class="hero">
+      <div class="image-grid">
+        <img
+          src="img111.png"
+          alt="Project visual"
+          class="grid-image image-1"
+        />
+        <img
+          src="img222.png"
+          alt="Project visual"
+          class="grid-image image-2"
+        />
+        <img
+          src="img333.png"
+          alt="Project visual"
+          class="grid-image image-3"
+        />
+        <img
+          src="img444.jpg"
+          alt="Project visual"
+          class="grid-image image-4"
+        />
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-text">
+          <span class="span-1">&nbsp;&nbsp;IMAGINING</span><br />
+          <span class="span-2">&nbsp;&nbsp;&nbsp; BOLD AND UNIQUE &nbsp;</span><br />
+          <span class="span-3">&nbsp;&nbsp;CONCEPTS</span><br />
+          <span class="span-4">&nbsp;&nbsp;AND CREATIVE</span><br />
+          <span class="span-5">EXPERIENCES</span><br />
+        </h1>
+      </div>
+    </section>
 
-        <section class="video-section" aria-label="Video and content section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="play">
-                            <video autoplay loop muted playsinline src="assets/videos/video.mp4" aria-label="Digital experience video"></video>
-                        </div>
-                    </div>
-                </div>
-                <div class="written">
-                    <div class="right">
-                        <div class="write">
-                            <h6>
-                                Living an immersive journey rich in emotions adds flesh and bones<br> and meaning to a digital
-                                experience that is all too often cold. Not only<br> does this process perfectly embody the core values
-                                of the brand, but <br>the message delivered has a longer, deeper and more positive influence on the
-                                user.
-                                <br><br>
-                                The bringing together of digital creativity and knowledge in<br> neuroscience has written into the DNA
-                                of our studio an artisanal <br>know-how at the service of high technology. Each project is imagined<br> and
-                                produced on a tailor-made basis, with listening, precision, rigour, originality and pleasure.
-                            </h6>
-                        </div>
-                    </div>
-                    <div class="left">
-                        <img src="img555.png" alt="Studio screenshot">
-                        <div class="lefty">
-                            <h1>
-                                <span>
-                                    THE MORE AN<br>
-                                    EXPERIENCE IS<br>
-                                    RICH IN MEANING THE MORE ITS <br> MEANING ITS RICH
-                                </span>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
